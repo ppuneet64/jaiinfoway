@@ -1,13 +1,45 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+html,
+body,
+#root {
+  height: 100%;
+}
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.shadow-card {
+  max-width: 450px;
+  width: 100%;
+  margin: 30px auto;
+  box-shadow: -1px 7px 60px rgb(0 0 0 / 8%);
+  background: rgba(255, 255, 255);
+  border-radius: 5px;
+}
+.w3-container.shadow-card {
+  padding: 15px 30px;
+}
+.shadow-card-bk {
+  background-image: url(./assets/images/w3images-house5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.head-color {
+  text-align: center;
+}
+.error-message {
+  color: red;
+  display: block;
 }
